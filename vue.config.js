@@ -4,7 +4,9 @@ const IS_PROV = ['production'].includes(process.env.NODE_ENV)
 console.log(IS_PROV, '环境')
 
 module.expotrs = {
+// ese
     lintOnsave: true,
+// 配置代理
     devServer: {
         open: true,
         proxy: {
